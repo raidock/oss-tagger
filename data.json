@@ -3,7 +3,7 @@
     "full_name": "grafana/grafana",
     "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
     "url": "https://github.com/grafana/grafana",
-    "stars": 74135,
+    "stars": 74138,
     "forks": 14010,
     "language": "TypeScript",
     "license": "AGPL-3.0",
@@ -24,8 +24,8 @@
       "postgres",
       "prometheus"
     ],
-    "last_pushed": "2026-06-04T04:13:29Z",
-    "summary": "メトリクスやログの可視化、アラート機能を提供するオープンソースの監視・可観測性プラットフォーム。",
+    "last_pushed": "2026-06-04T04:47:09Z",
+    "summary": "メトリクスを可視化、監視、アラート設定できるオープンソースの監視・可観測性プラットform",
     "categories": [
       "monitoring",
       "analytics"
@@ -68,8 +68,8 @@
     "full_name": "n8n-io/n8n",
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
     "url": "https://github.com/n8n-io/n8n",
-    "stars": 190981,
-    "forks": 58250,
+    "stars": 190990,
+    "forks": 58254,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "github_topics": [
@@ -94,11 +94,11 @@
       "workflow",
       "workflow-automation"
     ],
-    "last_pushed": "2026-06-04T01:06:18Z",
-    "summary": "400以上の統合とAI機能を備えた、技術チーム向けのワークフロー自動化プラットフォーム。コードと低コードの柔軟性を提供し、セルフホスト又はクラウドで利用可能。",
+    "last_pushed": "2026-06-04T04:51:43Z",
+    "summary": "ワークフロー自動化プラットフォームで、400以上のインテグレーション、AI機能、フェアコードライセンスを備え、セルフホスティングまたはクラウド利用が可能。",
     "categories": [
       "automation",
-      "developer-tools"
+      "api"
     ],
     "attributes": [
       "self-hosted",
@@ -111,7 +111,7 @@
     "full_name": "mattermost/mattermost",
     "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
     "url": "https://github.com/mattermost/mattermost",
-    "stars": 36979,
+    "stars": 36980,
     "forks": 8669,
     "language": "TypeScript",
     "license": "NOASSERTION",
@@ -124,11 +124,12 @@
       "react",
       "react-native"
     ],
-    "last_pushed": "2026-06-04T04:00:05Z",
-    "summary": "オープンコアな自ホスト型コラボレーションプラットフォームで、チャット、ワークフロー自動化、音声通話、画面共有、AI統合を提供します。",
+    "last_pushed": "2026-06-04T04:37:44Z",
+    "summary": "チャット、ワークフロー自動化、音声通話、画面共有、AI統合を備えたオープンコアの自己ホスト型コラボレーションプラットフォーム",
     "categories": [
       "communication",
-      "automation"
+      "automation",
+      "api"
     ],
     "attributes": [
       "self-hosted",
