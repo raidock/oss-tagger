@@ -1,11 +1,12 @@
 ---
-// src/pages/index.astro
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-// site フォルダの「1つ上」にある data.json を読み込む（= パイプラインの出力）
 const raw = readFileSync(resolve(process.cwd(), '../data.json'), 'utf-8');
 const items = JSON.parse(raw);
+
+const allCategories = [...new Set(items.flatMap((i) => i.categories))].sort();
+const allAttributes = [...new Set(items.flatMap((i) => i.attributes))].sort();
 ---
 
 <html lang="ja">
@@ -17,12 +18,42 @@ const items = JSON.parse(raw);
   <body>
     <main>
       <h1>OSS Directory</h1>
-      <p class="count">{items.length} 件のOSS</p>
 
-      <div class="grid">
+      <section class="filters">
+        <div class="filter-group">
+          <span class="filter-label">カテゴリ</span>
+          {
+            allCategories.map((c) => (
+              <button class="chip cat" data-type="category" data-value={c}>
+                {c}
+              </button>
+            ))
+          }
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">属性</span>
+          {
+            allAttributes.map((a) => (
+              <button class="chip attr" data-type="attribute" data-value={a}>
+                {a}
+              </button>
+            ))
+          }
+        </div>
+      </section>
+
+      <p class="count"><span id="count">{items.length}</span> 件のOSS</p>
+
+      <div class="grid" id="grid">
         {
           items.map((item) => (
-            <a class="card" href={item.url} target="_blank" rel="noopener">
+            <a
+              class="card"
+              href={item.url}
+              target="_blank"
+              rel="noopener"
+              data-categories={item.categories.join(',')}
+              data-attributes={item.attributes.join(',')}>
               <div class="card-head">
                 <h2>{item.full_name}</h2>
                 <span class="stars">★ {item.stars.toLocaleString()}</span>
@@ -44,7 +75,53 @@ const items = JSON.parse(raw);
           ))
         }
       </div>
+
+      <p class="empty" id="empty" hidden>条件に合うOSSがありません。</p>
     </main>
+
+    <script is:inline>
+      var selected = { category: new Set(), attribute: new Set() };
+      var chips = document.querySelectorAll('.chip');
+      var cards = document.querySelectorAll('.card');
+      var countEl = document.getElementById('count');
+      var emptyEl = document.getElementById('empty');
+      chips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          var type = chip.dataset.type;
+          var value = chip.dataset.value;
+          if (selected[type].has(value)) {
+            selected[type].delete(value);
+            chip.classList.remove('active');
+          } else {
+            selected[type].add(value);
+            chip.classList.add('active');
+          }
+          applyFilter();
+        });
+      });
+      function applyFilter() {
+        var visible = 0;
+        cards.forEach(function (card) {
+          var cats = (card.dataset.categories || '').split(',').filter(Boolean);
+          var attrs = (card.dataset.attributes || '').split(',').filter(Boolean);
+          var catOk =
+            selected.category.size === 0 ||
+            [...selected.category].some(function (c) {
+              return cats.includes(c);
+            });
+          var attrOk =
+            selected.attribute.size === 0 ||
+            [...selected.attribute].some(function (a) {
+              return attrs.includes(a);
+            });
+          var show = catOk && attrOk;
+          card.hidden = !show;
+          if (show) visible++;
+        });
+        countEl.textContent = visible;
+        emptyEl.hidden = visible !== 0;
+      }
+    </script>
 
     <style>
       body {
@@ -60,7 +137,47 @@ const items = JSON.parse(raw);
       }
       h1 {
         font-size: 1.6rem;
-        margin: 0 0 0.25rem;
+        margin: 0 0 1rem;
+      }
+      .filters {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-bottom: 1.25rem;
+      }
+      .filter-group {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.4rem;
+      }
+      .filter-label {
+        font-size: 0.8rem;
+        color: #6b7280;
+        width: 4rem;
+      }
+      .chip {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.65rem;
+        border-radius: 999px;
+        border: 1px solid #d1d5db;
+        background: #fff;
+        color: #374151;
+        cursor: pointer;
+        transition: all 0.12s;
+      }
+      .chip:hover {
+        border-color: #9ca3af;
+      }
+      .chip.cat.active {
+        background: #4f46e5;
+        color: #fff;
+        border-color: #4f46e5;
+      }
+      .chip.attr.active {
+        background: #16a34a;
+        color: #fff;
+        border-color: #16a34a;
       }
       .count {
         color: #6b7280;
@@ -124,15 +241,18 @@ const items = JSON.parse(raw);
       .tag.cat {
         background: #e0e7ff;
         color: #3730a3;
-      } /* カテゴリ＝青系 */
+      }
       .tag.attr {
         background: #dcfce7;
         color: #166534;
-      } /* 属性＝緑系 */
+      }
       .meta {
         display: flex;
         gap: 0.75rem;
         font-size: 0.75rem;
+        color: #6b7280;
+      }
+      .empty {
         color: #6b7280;
       }
     </style>
