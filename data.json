@@ -3,8 +3,8 @@
     "full_name": "grafana/grafana",
     "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
     "url": "https://github.com/grafana/grafana",
-    "stars": 74130,
-    "forks": 14009,
+    "stars": 74135,
+    "forks": 14010,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "github_topics": [
@@ -24,8 +24,8 @@
       "postgres",
       "prometheus"
     ],
-    "last_pushed": "2026-06-04T01:13:45Z",
-    "summary": "メトリクスとログの監視・可視化・アラート機能を提供するオープンソースのモニタリングプラットフォーム",
+    "last_pushed": "2026-06-04T04:13:29Z",
+    "summary": "メトリクスやログの可視化、アラート機能を提供するオープンソースの監視・可観測性プラットフォーム。",
     "categories": [
       "monitoring",
       "analytics"
@@ -111,7 +111,7 @@
     "full_name": "mattermost/mattermost",
     "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
     "url": "https://github.com/mattermost/mattermost",
-    "stars": 36978,
+    "stars": 36979,
     "forks": 8669,
     "language": "TypeScript",
     "license": "NOASSERTION",
@@ -124,8 +124,8 @@
       "react",
       "react-native"
     ],
-    "last_pushed": "2026-06-04T03:33:11Z",
-    "summary": "Go・Reactで構築されたセルフホストド型のチャットおよびコラボレーションプラットフォームで、ワークフロー自動化、音声通話、画面共有、AI統合機能を提供する。",
+    "last_pushed": "2026-06-04T04:00:05Z",
+    "summary": "オープンコアな自ホスト型コラボレーションプラットフォームで、チャット、ワークフロー自動化、音声通話、画面共有、AI統合を提供します。",
     "categories": [
       "communication",
       "automation"
