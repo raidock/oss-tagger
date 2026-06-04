@@ -1,0 +1,49 @@
+name: Update OSS data
+
+# いつ動かすか
+on:
+  schedule:
+    - cron: '0 21 * * *' # 毎日 UTC 21:00 = 日本時間 朝6:00
+  workflow_dispatch: # 手動実行ボタンも付ける（テスト用）
+
+# data.json をコミットして戻すため、書き込み権限を与える
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. リポジトリの中身（コードと前回の data.json）を取ってくる
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. Node.js を用意する
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 3. 依存パッケージをインストール
+      - name: Install dependencies
+        run: npm install
+
+      # 4. パイプラインを実行（Secrets を環境変数として渡す）
+      - name: Run build
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GH_TOKEN_FETCH: ${{ secrets.GH_TOKEN_FETCH }}
+        run: node build.mjs
+
+      # 5. data.json に変化があればコミットして戻す（前回分の引き継ぎ＝冪等性の要）
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          if git diff --staged --quiet; then
+            echo "変更なし。コミットしません。"
+          else
+            git commit -m "chore: update data.json [skip ci]"
+            git push
+          fi

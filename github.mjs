@@ -1,7 +1,8 @@
 // github.mjs — GitHub から実在のリポジトリ情報と README を取ってくる。
 import 'dotenv/config';
 
-const token = process.env.GITHUB_TOKEN;
+// ローカルでは .env の GITHUB_TOKEN、Actions では Secrets の GH_TOKEN_FETCH を読む。
+const token = process.env.GH_TOKEN_FETCH || process.env.GITHUB_TOKEN;
 
 // 共通ヘッダー。トークンがあれば認証付き(5000回/時)、なければ未認証(60回/時)。
 const headers = {
