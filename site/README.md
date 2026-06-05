@@ -1,14 +1,14 @@
-# Astro Starter Kit: Minimal
+# Astro スターターキット: Minimal
 
 ```sh
 npm create astro@latest -- --template minimal
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+> 🧑‍🚀 **熟練のAstro (宇宙飛行士の方へ) :** このファイルは削除して構いません。お楽しみください！
 
-## 🚀 Project Structure
+## 🚀 プロジェクト構成
 
-Inside of your Astro project, you'll see the following folders and files:
+Astro プロジェクトの中には、以下のフォルダとファイルがあります:
 
 ```text
 /
@@ -19,25 +19,25 @@ Inside of your Astro project, you'll see the following folders and files:
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Astro は `src/pages/` ディレクトリ内の `.astro` または `.md` ファイルを探します。各ページはファイル名に基づいたルートとして公開されます。
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+`src/components/` に特別な役割はありませんが、Astro/React/Vue/Svelte/Preact のコンポーネントを置く場所として使っています。
 
-Any static assets, like images, can be placed in the `public/` directory.
+画像などの静的アセットは `public/` ディレクトリに配置できます。
 
-## 🧞 Commands
+## 🧞 コマンド
 
-All commands are run from the root of the project, from a terminal:
+すべてのコマンドは、ターミナルからプロジェクトのルートで実行します:
 
-| Command                   | Action                                           |
+| コマンド                  | 動作                                             |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm install`             | 依存パッケージをインストールする                 |
+| `npm run dev`             | `localhost:4321` でローカル開発サーバーを起動する |
+| `npm run build`           | 本番用サイトを `./dist/` にビルドする            |
+| `npm run preview`         | デプロイ前にビルドをローカルでプレビューする     |
+| `npm run astro ...`       | `astro add` や `astro check` などの CLI コマンドを実行する |
+| `npm run astro -- --help` | Astro CLI のヘルプを表示する                     |
 
-## 👀 Want to learn more?
+## 👀 もっと知りたいですか？
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+[公式ドキュメント](https://docs.astro.build) を参照するか、[Discord サーバー](https://astro.build/chat) に参加してみてください。
