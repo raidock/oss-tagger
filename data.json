@@ -3,8 +3,8 @@
     "full_name": "grafana/grafana",
     "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
     "url": "https://github.com/grafana/grafana",
-    "stars": 74336,
-    "forks": 14049,
+    "stars": 74350,
+    "forks": 14054,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "github_topics": [
@@ -24,8 +24,8 @@
       "postgres",
       "prometheus"
     ],
-    "last_pushed": "2026-06-10T22:42:26Z",
-    "summary": "メトリクスとログの可視化、アラート機能を備えたオープンソースの監視・可観測性プラットフォーム。",
+    "last_pushed": "2026-06-11T22:24:49Z",
+    "summary": "メトリクスの監視・可視化・アラート機能を提供するオープンソースの監視・観測プラットフォーム",
     "categories": [
       "monitoring",
       "analytics"
@@ -39,8 +39,8 @@
     "full_name": "withastro/astro",
     "description": "The web framework for content-driven websites. ⭐️ Star to support our work!",
     "url": "https://github.com/withastro/astro",
-    "stars": 60015,
-    "forks": 3528,
+    "stars": 60050,
+    "forks": 3534,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "github_topics": [
@@ -56,8 +56,8 @@
       "static-site-generator",
       "universal"
     ],
-    "last_pushed": "2026-06-10T22:39:24Z",
-    "summary": "モダンウェブ向けのウェブサイトビルドツール。優れた開発者体験と軽量な出力を実現する。",
+    "last_pushed": "2026-06-11T20:43:28Z",
+    "summary": "モダンウェブ向けのWebサイト構築ツール。強力な開発者体験と軽量な出力を実現するスタティックサイトジェネレータ。",
     "categories": [
       "developer-tools"
     ],
@@ -68,8 +68,8 @@
     "full_name": "n8n-io/n8n",
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
     "url": "https://github.com/n8n-io/n8n",
-    "stars": 191967,
-    "forks": 58445,
+    "stars": 192099,
+    "forks": 58468,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "github_topics": [
@@ -94,11 +94,11 @@
       "workflow",
       "workflow-automation"
     ],
-    "last_pushed": "2026-06-10T22:23:54Z",
-    "summary": "n8nは技術チーム向けのワークフロー自動化プラットフォームで、400以上の統合とAI機能を備えており、自己ホストまたはクラウドで利用できる。",
+    "last_pushed": "2026-06-11T22:46:56Z",
+    "summary": "400以上の統合と生成AIネイティブ機能を備えた、技術チーム向けのワークフロー自動化プラットフォーム。",
     "categories": [
       "automation",
-      "api"
+      "developer-tools"
     ],
     "attributes": [
       "self-hosted",
@@ -111,8 +111,8 @@
     "full_name": "mattermost/mattermost",
     "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
     "url": "https://github.com/mattermost/mattermost",
-    "stars": 37077,
-    "forks": 8686,
+    "stars": 37285,
+    "forks": 8696,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "github_topics": [
@@ -124,15 +124,16 @@
       "react",
       "react-native"
     ],
-    "last_pushed": "2026-06-10T22:35:56Z",
-    "summary": "チャット、ワークフロー自動化、音声通話、画面共有、AI統合を備えたオープンコアな自社ホスト型コラボレーションプラットフォーム。",
+    "last_pushed": "2026-06-11T22:11:10Z",
+    "summary": "Mattermost は、チャット、ワークフロー自動化、音声通話、画面共有、AI統合を提供するオープンコアな自己ホスト型コラボレーションプラットフォームです。",
     "categories": [
       "communication",
       "automation"
     ],
     "attributes": [
       "self-hosted",
-      "ai"
+      "ai",
+      "cloud"
     ],
     "dropped_tags": []
   },
@@ -140,7 +141,7 @@
     "full_name": "PostgREST/postgrest",
     "description": "REST API for any Postgres database",
     "url": "https://github.com/PostgREST/postgrest",
-    "stars": 27215,
+    "stars": 27216,
     "forks": 1201,
     "language": "Haskell",
     "license": "MIT",
@@ -159,11 +160,11 @@
       "server",
       "sql"
     ],
-    "last_pushed": "2026-06-10T13:04:40Z",
-    "summary": "PostgreSQLデータベースから完全なRESTful APIを自動生成するツール。",
+    "last_pushed": "2026-06-11T19:17:16Z",
+    "summary": "PostgreSQLデータベースから自動的にRESTful APIを生成するサーバー",
     "categories": [
       "api",
-      "developer-tools"
+      "database"
     ],
     "attributes": [
       "self-hosted"
