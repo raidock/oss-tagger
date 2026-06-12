@@ -3,8 +3,8 @@
     "full_name": "grafana/grafana",
     "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
     "url": "https://github.com/grafana/grafana",
-    "stars": 74350,
-    "forks": 14054,
+    "stars": 74382,
+    "forks": 14062,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "github_topics": [
@@ -24,8 +24,8 @@
       "postgres",
       "prometheus"
     ],
-    "last_pushed": "2026-06-11T22:24:49Z",
-    "summary": "メトリクスの監視・可視化・アラート機能を提供するオープンソースの監視・観測プラットフォーム",
+    "last_pushed": "2026-06-12T22:13:23Z",
+    "summary": "メトリクスとログの可視化、アラート設定ができるオープンソースのモニタリングおよび可観測性プラットフォーム",
     "categories": [
       "monitoring",
       "analytics"
@@ -39,8 +39,8 @@
     "full_name": "withastro/astro",
     "description": "The web framework for content-driven websites. ⭐️ Star to support our work!",
     "url": "https://github.com/withastro/astro",
-    "stars": 60050,
-    "forks": 3534,
+    "stars": 60095,
+    "forks": 3538,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "github_topics": [
@@ -56,8 +56,8 @@
       "static-site-generator",
       "universal"
     ],
-    "last_pushed": "2026-06-11T20:43:28Z",
-    "summary": "モダンウェブ向けのWebサイト構築ツール。強力な開発者体験と軽量な出力を実現するスタティックサイトジェネレータ。",
+    "last_pushed": "2026-06-12T18:13:38Z",
+    "summary": "モダンウェブサイト構築ツール。強力な開発者体験と軽量な出力を実現するWebサイトビルダー。",
     "categories": [
       "developer-tools"
     ],
@@ -68,8 +68,8 @@
     "full_name": "n8n-io/n8n",
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
     "url": "https://github.com/n8n-io/n8n",
-    "stars": 192099,
-    "forks": 58468,
+    "stars": 192228,
+    "forks": 58492,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "github_topics": [
@@ -94,11 +94,11 @@
       "workflow",
       "workflow-automation"
     ],
-    "last_pushed": "2026-06-11T22:46:56Z",
-    "summary": "400以上の統合と生成AIネイティブ機能を備えた、技術チーム向けのワークフロー自動化プラットフォーム。",
+    "last_pushed": "2026-06-12T22:10:48Z",
+    "summary": "400以上のインテグレーションと組み込みAI機能を備えたワークフロー自動化プラットフォーム。セルフホスト可能でコードとノーコードの柔軟性を提供。",
     "categories": [
       "automation",
-      "developer-tools"
+      "api"
     ],
     "attributes": [
       "self-hosted",
@@ -111,8 +111,8 @@
     "full_name": "mattermost/mattermost",
     "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
     "url": "https://github.com/mattermost/mattermost",
-    "stars": 37285,
-    "forks": 8696,
+    "stars": 37608,
+    "forks": 8711,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "github_topics": [
@@ -124,16 +124,15 @@
       "react",
       "react-native"
     ],
-    "last_pushed": "2026-06-11T22:11:10Z",
-    "summary": "Mattermost は、チャット、ワークフロー自動化、音声通話、画面共有、AI統合を提供するオープンコアな自己ホスト型コラボレーションプラットフォームです。",
+    "last_pushed": "2026-06-12T22:14:40Z",
+    "summary": "チャット、ワークフロー自動化、音声通話、画面共有、AI統合を備えたオープンコアの自社ホスト型コラボレーションプラットフォーム。",
     "categories": [
       "communication",
       "automation"
     ],
     "attributes": [
       "self-hosted",
-      "ai",
-      "cloud"
+      "ai"
     ],
     "dropped_tags": []
   },
@@ -141,7 +140,7 @@
     "full_name": "PostgREST/postgrest",
     "description": "REST API for any Postgres database",
     "url": "https://github.com/PostgREST/postgrest",
-    "stars": 27216,
+    "stars": 27225,
     "forks": 1201,
     "language": "Haskell",
     "license": "MIT",
@@ -160,11 +159,11 @@
       "server",
       "sql"
     ],
-    "last_pushed": "2026-06-11T19:17:16Z",
+    "last_pushed": "2026-06-12T07:34:05Z",
     "summary": "PostgreSQLデータベースから自動的にRESTful APIを生成するサーバー",
     "categories": [
       "api",
-      "database"
+      "developer-tools"
     ],
     "attributes": [
       "self-hosted"
