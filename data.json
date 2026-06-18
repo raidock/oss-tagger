@@ -1,173 +1,98 @@
 [
   {
-    "full_name": "grafana/grafana",
-    "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-    "url": "https://github.com/grafana/grafana",
-    "stars": 74475,
-    "forks": 14070,
+    "full_name": "stripe/stripe-node",
+    "description": "Node.js library for the Stripe API.    ",
+    "url": "https://github.com/stripe/stripe-node",
+    "stars": 4434,
+    "forks": 908,
     "language": "TypeScript",
-    "license": "AGPL-3.0",
+    "license": "MIT",
     "github_topics": [
-      "alerting",
-      "analytics",
-      "business-intelligence",
-      "dashboard",
-      "data-visualization",
-      "elasticsearch",
-      "go",
-      "grafana",
-      "hacktoberfest",
-      "influxdb",
-      "metrics",
-      "monitoring",
-      "mysql",
-      "postgres",
-      "prometheus"
+      "stripe",
+      "stripe-sdk"
     ],
-    "last_pushed": "2026-06-17T22:30:13Z",
-    "summary": "メトリクスの可視化、ダッシュボード作成、アラート設定ができるオープンソースの監視・可観測性プラットフォーム。",
+    "last_pushed": "2026-06-08T22:20:25Z",
+    "summary": "Stripe APIにNode.jsから便利にアクセスするためのライブラリ。支払い処理やカスタマー管理などの機能を提供します。",
     "categories": [
-      "monitoring",
-      "analytics"
-    ],
-    "attributes": [
-      "self-hosted"
-    ],
-    "dropped_tags": []
-  },
-  {
-    "full_name": "withastro/astro",
-    "description": "The web framework for content-driven websites. ⭐️ Star to support our work!",
-    "url": "https://github.com/withastro/astro",
-    "stars": 60247,
-    "forks": 3548,
-    "language": "TypeScript",
-    "license": "NOASSERTION",
-    "github_topics": [
-      "astro",
-      "blog",
-      "browser",
-      "components",
-      "hybrid",
-      "islands",
-      "node",
-      "server",
-      "static",
-      "static-site-generator",
-      "universal"
-    ],
-    "last_pushed": "2026-06-17T18:48:21Z",
-    "summary": "モダンウェブ向けのWebサイト構築ツールで、優れた開発者体験と軽量な出力を実現します。",
-    "categories": [
-      "developer-tools"
+      "payment"
     ],
     "attributes": [],
     "dropped_tags": []
   },
   {
-    "full_name": "n8n-io/n8n",
-    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-    "url": "https://github.com/n8n-io/n8n",
-    "stars": 192955,
-    "forks": 58637,
+    "full_name": "stripe/stripe-js",
+    "description": "Loading wrapper for Stripe.js",
+    "url": "https://github.com/stripe/stripe-js",
+    "stars": 746,
+    "forks": 207,
     "language": "TypeScript",
-    "license": "NOASSERTION",
-    "github_topics": [
-      "ai",
-      "apis",
-      "automation",
-      "cli",
-      "data-flow",
-      "development",
-      "integration-framework",
-      "integrations",
-      "ipaas",
-      "low-code",
-      "low-code-platform",
-      "mcp",
-      "mcp-client",
-      "mcp-server",
-      "n8n",
-      "no-code",
-      "self-hosted",
-      "typescript",
-      "workflow",
-      "workflow-automation"
-    ],
-    "last_pushed": "2026-06-17T22:20:14Z",
-    "summary": "400以上の統合機能を備えたワークフロー自動化プラットフォーム。コードと ノーコードの両方に対応し、AI機能とセルフホスティングが可能。",
+    "license": "MIT",
+    "github_topics": [],
+    "last_pushed": "2026-06-08T23:09:27Z",
+    "summary": "Stripe.jsをCommonJSモジュールまたはESモジュールとしてインポートできるラッパーパッケージ",
     "categories": [
-      "automation",
-      "developer-tools"
+      "payment"
     ],
-    "attributes": [
-      "self-hosted",
-      "ai",
-      "cloud"
-    ],
+    "attributes": [],
     "dropped_tags": []
   },
   {
-    "full_name": "mattermost/mattermost",
-    "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
-    "url": "https://github.com/mattermost/mattermost",
-    "stars": 38003,
-    "forks": 8748,
-    "language": "TypeScript",
-    "license": "NOASSERTION",
-    "github_topics": [
-      "collaboration",
-      "golang",
-      "hacktoberfest",
-      "mattermost",
-      "monorepo",
-      "react",
-      "react-native"
-    ],
-    "last_pushed": "2026-06-17T22:35:54Z",
-    "summary": "オープンコアな自己ホスト型のコラボレーションプラットフォーム。チャット、ワークフロー自動化、音声通話、画面共有、AI統合を提供します。",
+    "full_name": "freee/freee-api-schema",
+    "description": "schema file of freee API",
+    "url": "https://github.com/freee/freee-api-schema",
+    "stars": 24,
+    "forks": 18,
+    "language": "HTML",
+    "license": "MIT",
+    "github_topics": [],
+    "last_pushed": "2026-06-08T06:05:09Z",
+    "summary": "freeeの公式API仕様書ファイルを定義するスキーマ",
     "categories": [
-      "communication",
-      "automation"
+      "accounting"
     ],
-    "attributes": [
-      "self-hosted",
-      "ai"
-    ],
+    "attributes": [],
     "dropped_tags": []
   },
   {
-    "full_name": "PostgREST/postgrest",
-    "description": "REST API for any Postgres database",
-    "url": "https://github.com/PostgREST/postgrest",
-    "stars": 27236,
-    "forks": 1204,
-    "language": "Haskell",
+    "full_name": "kintone/js-sdk",
+    "description": "A monorepo for Kintone development tools :wrench:",
+    "url": "https://github.com/kintone/js-sdk",
+    "stars": 133,
+    "forks": 69,
+    "language": "TypeScript",
     "license": "MIT",
     "github_topics": [
-      "api",
-      "automatic-api",
-      "database",
-      "haskell",
-      "http",
-      "pg",
-      "pgsql",
-      "postgres",
-      "postgresql",
-      "postgrest",
-      "rest",
-      "server",
-      "sql"
+      "kintone",
+      "sdk"
     ],
-    "last_pushed": "2026-06-17T20:33:45Z",
-    "summary": "PostgreSQLデータベースから自動的にRESTful APIを生成するサーバー",
+    "last_pushed": "2026-06-08T22:36:42Z",
+    "summary": "Kintoneの開発ツールを提供するJavaScript SDKのモノレポ。REST APIクライアント、カスタマイズアップローダー、プラグイン開発ツールなどで構成。",
     "categories": [
-      "api",
-      "database"
+      "business-app"
     ],
-    "attributes": [
-      "self-hosted"
+    "attributes": [],
+    "dropped_tags": []
+  },
+  {
+    "full_name": "kintone/cli-kintone",
+    "description": "The command line interface for kintone.",
+    "url": "https://github.com/kintone/cli-kintone",
+    "stars": 34,
+    "forks": 9,
+    "language": "TypeScript",
+    "license": "MIT",
+    "github_topics": [
+      "automation",
+      "cli",
+      "csv",
+      "kintone"
     ],
+    "last_pushed": "2026-06-08T23:43:15Z",
+    "summary": "Kintoneのレコードをインポート/エクスポートするためのCLIツール",
+    "categories": [
+      "business-app"
+    ],
+    "attributes": [],
     "dropped_tags": []
   }
 ]

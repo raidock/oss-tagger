@@ -13,6 +13,9 @@ export const CATEGORIES = [
   'communication',
   'api', // 今日のデータ(PostgREST, n8n)を見て追加
   'backup',
+  'payment', // 決済(Stripe など)。国内SaaS連携の主軸
+  'accounting', // 会計(freee など)
+  'business-app', // 業務アプリ(kintone など)
 ];
 
 // (B) 属性＝「それがどういう性質を持つか」。カテゴリとは別の軸で重ねて絞る。
