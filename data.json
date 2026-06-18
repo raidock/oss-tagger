@@ -3,18 +3,19 @@
     "full_name": "stripe/stripe-node",
     "description": "Node.js library for the Stripe API.    ",
     "url": "https://github.com/stripe/stripe-node",
-    "stars": 4434,
-    "forks": 908,
+    "stars": 4449,
+    "forks": 910,
     "language": "TypeScript",
     "license": "MIT",
     "github_topics": [
       "stripe",
       "stripe-sdk"
     ],
-    "last_pushed": "2026-06-08T22:20:25Z",
-    "summary": "Stripe APIにNode.jsから便利にアクセスするためのライブラリ。支払い処理やカスタマー管理などの機能を提供します。",
+    "last_pushed": "2026-06-18T22:54:57Z",
+    "summary": "Stripe APIへのNode.js用ライブラリで、サーバーサイドJavaScriptアプリケーションから決済処理やカスタマー管理などのStripeサービスに便利にアクセスできます。",
     "categories": [
-      "payment"
+      "payment",
+      "api"
     ],
     "attributes": [],
     "dropped_tags": []
@@ -23,15 +24,16 @@
     "full_name": "stripe/stripe-js",
     "description": "Loading wrapper for Stripe.js",
     "url": "https://github.com/stripe/stripe-js",
-    "stars": 746,
-    "forks": 207,
+    "stars": 747,
+    "forks": 213,
     "language": "TypeScript",
     "license": "MIT",
     "github_topics": [],
-    "last_pushed": "2026-06-08T23:09:27Z",
-    "summary": "Stripe.jsをCommonJSモジュールまたはESモジュールとしてインポートできるラッパーパッケージ",
+    "last_pushed": "2026-06-10T17:51:10Z",
+    "summary": "Stripe.jsをCommonJSモジュールまたはESモジュールとして使用するためのラッパーパッケージ",
     "categories": [
-      "payment"
+      "payment",
+      "api"
     ],
     "attributes": [],
     "dropped_tags": []
@@ -45,19 +47,22 @@
     "language": "HTML",
     "license": "MIT",
     "github_topics": [],
-    "last_pushed": "2026-06-08T06:05:09Z",
-    "summary": "freeeの公式API仕様書ファイルを定義するスキーマ",
+    "last_pushed": "2026-06-18T05:52:39Z",
+    "summary": "freee APIのスキーマ定義ファイル",
     "categories": [
+      "api",
       "accounting"
     ],
-    "attributes": [],
+    "attributes": [
+      "cloud"
+    ],
     "dropped_tags": []
   },
   {
     "full_name": "kintone/js-sdk",
     "description": "A monorepo for Kintone development tools :wrench:",
     "url": "https://github.com/kintone/js-sdk",
-    "stars": 133,
+    "stars": 134,
     "forks": 69,
     "language": "TypeScript",
     "license": "MIT",
@@ -65,10 +70,11 @@
       "kintone",
       "sdk"
     ],
-    "last_pushed": "2026-06-08T22:36:42Z",
-    "summary": "Kintoneの開発ツールを提供するJavaScript SDKのモノレポ。REST APIクライアント、カスタマイズアップローダー、プラグイン開発ツールなどで構成。",
+    "last_pushed": "2026-06-18T18:08:52Z",
+    "summary": "Kintone開発用のツールセットを提供するモノレポで、REST APIクライアント、プラグイン作成・パッキング・アップロードツール、型定義生成、ESLintプラグインなどを含む。",
     "categories": [
-      "business-app"
+      "developer-tools",
+      "api"
     ],
     "attributes": [],
     "dropped_tags": []
@@ -87,10 +93,11 @@
       "csv",
       "kintone"
     ],
-    "last_pushed": "2026-06-08T23:43:15Z",
+    "last_pushed": "2026-06-18T21:46:48Z",
     "summary": "Kintoneのレコードをインポート/エクスポートするためのCLIツール",
     "categories": [
-      "business-app"
+      "developer-tools",
+      "api"
     ],
     "attributes": [],
     "dropped_tags": []
