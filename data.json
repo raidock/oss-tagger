@@ -4,15 +4,15 @@
     "description": "Node.js library for the Stripe API.    ",
     "url": "https://github.com/stripe/stripe-node",
     "stars": 4450,
-    "forks": 910,
+    "forks": 911,
     "language": "TypeScript",
     "license": "MIT",
     "github_topics": [
       "stripe",
       "stripe-sdk"
     ],
-    "last_pushed": "2026-06-18T23:23:09Z",
-    "summary": "Stripe APIへのNode.js サーバーサイドアクセスを提供する公式ライブラリ",
+    "last_pushed": "2026-06-22T21:53:56Z",
+    "summary": "Stripe APIにサーバーサイドのJavaScriptからアクセスするための公式Node.jsライブラリ。",
     "categories": [
       "payment"
     ],
@@ -65,8 +65,8 @@
       "kintone",
       "sdk"
     ],
-    "last_pushed": "2026-06-22T01:57:28Z",
-    "summary": "Kintone開発ツール群を提供するmonorepoで、REST APIクライアント、カスタマイズアップローダー、プラグイン開発ツール等複数のパッケージを含むJavaScript SDK。",
+    "last_pushed": "2026-06-22T18:55:31Z",
+    "summary": "Kintoneの開発ツールを提供するモノレポで、REST APIクライアント、カスタマイズアップローダー、プラグイン開発ツールなどのパッケージを含みます。",
     "categories": [
       "business-app"
     ],
@@ -87,8 +87,8 @@
       "csv",
       "kintone"
     ],
-    "last_pushed": "2026-06-21T17:26:01Z",
-    "summary": "Kintoneのレコードをインポート/エクスポートするためのCLIツール",
+    "last_pushed": "2026-06-22T18:32:26Z",
+    "summary": "Kintoneのレコードをインポート/エクスポートするためのCLIツール。",
     "categories": [
       "business-app"
     ],
