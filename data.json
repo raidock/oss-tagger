@@ -3,8 +3,8 @@
     "full_name": "stripe/stripe-node",
     "description": "Node.js library for the Stripe API.    ",
     "url": "https://github.com/stripe/stripe-node",
-    "stars": 4449,
-    "forks": 911,
+    "stars": 4450,
+    "forks": 910,
     "language": "TypeScript",
     "license": "MIT",
     "github_topics": [
@@ -12,10 +12,9 @@
       "stripe-sdk"
     ],
     "last_pushed": "2026-06-18T23:23:09Z",
-    "summary": "Stripe APIにNode.js環境からアクセスするためのライブラリ。支払い処理やカスタマー管理など決済関連機能を提供。",
+    "summary": "Stripe APIへのNode.js サーバーサイドアクセスを提供する公式ライブラリ",
     "categories": [
-      "payment",
-      "api"
+      "payment"
     ],
     "attributes": [],
     "dropped_tags": []
@@ -30,10 +29,9 @@
     "license": "MIT",
     "github_topics": [],
     "last_pushed": "2026-06-10T17:51:10Z",
-    "summary": "Stripe.jsをCommonJSモジュールまたはESモジュールとして使用するためのラッパーパッケージ",
+    "summary": "Stripe.jsをCommonJSモジュールまたはESモジュールとしてインポートできるラッパーパッケージ。",
     "categories": [
-      "payment",
-      "api"
+      "payment"
     ],
     "attributes": [],
     "dropped_tags": []
@@ -48,14 +46,11 @@
     "license": "MIT",
     "github_topics": [],
     "last_pushed": "2026-06-18T05:52:39Z",
-    "summary": "freee APIのスキーマ定義ファイル",
+    "summary": "freee APIのスキーマファイル集。freeeの各種APIのOpenAPI仕様を提供するプロジェクト。",
     "categories": [
-      "api",
       "accounting"
     ],
-    "attributes": [
-      "cloud"
-    ],
+    "attributes": [],
     "dropped_tags": []
   },
   {
@@ -70,11 +65,10 @@
       "kintone",
       "sdk"
     ],
-    "last_pushed": "2026-06-21T16:49:39Z",
-    "summary": "Kintone開発ツール用のJavaScript SDKとCLIツールのモノレポ。REST APIクライアント、プラグイン開発ツール、カスタマイズアップローダーなどを提供。",
+    "last_pushed": "2026-06-22T01:57:28Z",
+    "summary": "Kintone開発ツール群を提供するmonorepoで、REST APIクライアント、カスタマイズアップローダー、プラグイン開発ツール等複数のパッケージを含むJavaScript SDK。",
     "categories": [
-      "developer-tools",
-      "api"
+      "business-app"
     ],
     "attributes": [],
     "dropped_tags": []
@@ -96,10 +90,11 @@
     "last_pushed": "2026-06-21T17:26:01Z",
     "summary": "Kintoneのレコードをインポート/エクスポートするためのCLIツール",
     "categories": [
-      "developer-tools",
-      "api"
+      "business-app"
     ],
-    "attributes": [],
+    "attributes": [
+      "cloud"
+    ],
     "dropped_tags": []
   }
 ]

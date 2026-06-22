@@ -20,7 +20,8 @@ async function loadPrevious() {
 const previous = await loadPrevious();
 
 // 1件分を処理する（AI呼び出しを含む）。
-async function buildOne({ owner, repo }) {
+// categories を渡すと手動優先（AIの分類より優先）。省略時はAIの結果を使う。
+async function buildOne({ owner, repo, categories }) {
   const data = await fetchRepo(owner, repo);
   const tagResult = await tagReadme(data.readme.slice(0, 6000));
   return {
@@ -34,7 +35,7 @@ async function buildOne({ owner, repo }) {
     github_topics: data.github_topics,
     last_pushed: data.last_pushed,
     summary: tagResult.summary,
-    categories: tagResult.categories,
+    categories: categories ?? tagResult.categories, // 手動指定があれば優先
     attributes: tagResult.attributes,
     dropped_tags: tagResult.dropped,
   };
@@ -63,6 +64,9 @@ for (const r of repos) {
     // 変わっている or 初回 → AI も含めて処理する。
     process.stdout.write(`🔄 処理中: ${label} ... `);
     const tagResult = await tagReadme(fresh.readme.slice(0, 6000));
+    // 手動指定(repos.mjs)があれば優先。保存値とログ表示の両方でこの finalCategories を使う。
+    const finalCategories = r.categories ?? tagResult.categories;
+    const isManualCat = r.categories != null; // 手動指定か（ログ表示用）
     results.push({
       full_name: fresh.full_name,
       description: fresh.description,
@@ -74,12 +78,12 @@ for (const r of repos) {
       github_topics: fresh.github_topics,
       last_pushed: fresh.last_pushed,
       summary: tagResult.summary,
-      categories: tagResult.categories,
+      categories: finalCategories,
       attributes: tagResult.attributes,
       dropped_tags: tagResult.dropped,
     });
     processed++;
-    console.log(`✅ cat=[${tagResult.categories.join(', ')}] attr=[${tagResult.attributes.join(', ')}]`);
+    console.log(`✅ cat=[${finalCategories.join(', ')}]${isManualCat ? '（手動）' : ''} attr=[${tagResult.attributes.join(', ')}]`);
   } catch (err) {
     failures.push({ repo: label, error: err.message });
     console.log(`❌ 失敗: ${err.message}`);
