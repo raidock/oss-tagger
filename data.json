@@ -3,16 +3,16 @@
     "full_name": "stripe/stripe-node",
     "description": "Node.js library for the Stripe API.    ",
     "url": "https://github.com/stripe/stripe-node",
-    "stars": 4450,
-    "forks": 911,
+    "stars": 4452,
+    "forks": 912,
     "language": "TypeScript",
     "license": "MIT",
     "github_topics": [
       "stripe",
       "stripe-sdk"
     ],
-    "last_pushed": "2026-06-22T21:53:56Z",
-    "summary": "Stripe APIにサーバーサイドのJavaScriptからアクセスするための公式Node.jsライブラリ。",
+    "last_pushed": "2026-06-23T18:58:36Z",
+    "summary": "Stripe APIにNode.jsから簡単にアクセスできるライブラリ。支払い処理や顧客管理などの機能を提供します。",
     "categories": [
       "payment"
     ],
@@ -23,13 +23,13 @@
     "full_name": "stripe/stripe-js",
     "description": "Loading wrapper for Stripe.js",
     "url": "https://github.com/stripe/stripe-js",
-    "stars": 747,
+    "stars": 746,
     "forks": 213,
     "language": "TypeScript",
     "license": "MIT",
     "github_topics": [],
-    "last_pushed": "2026-06-10T17:51:10Z",
-    "summary": "Stripe.jsをCommonJSモジュールまたはESモジュールとしてインポートできるラッパーパッケージ。",
+    "last_pushed": "2026-06-23T18:10:44Z",
+    "summary": "Stripe.jsをCommonJSモジュールまたはESモジュールとしてインポートできるラッパーパッケージ。Stripe決済APIのクライアント側実装を簡易化します。",
     "categories": [
       "payment"
     ],
@@ -45,8 +45,8 @@
     "language": "HTML",
     "license": "MIT",
     "github_topics": [],
-    "last_pushed": "2026-06-18T05:52:39Z",
-    "summary": "freee APIのスキーマファイル集。freeeの各種APIのOpenAPI仕様を提供するプロジェクト。",
+    "last_pushed": "2026-06-23T07:21:39Z",
+    "summary": "freee APIのスキーマファイル集。API定義と仕様を管理するためのOSS。",
     "categories": [
       "accounting"
     ],
@@ -65,8 +65,8 @@
       "kintone",
       "sdk"
     ],
-    "last_pushed": "2026-06-22T18:55:31Z",
-    "summary": "Kintoneの開発ツールを提供するモノレポで、REST APIクライアント、カスタマイズアップローダー、プラグイン開発ツールなどのパッケージを含みます。",
+    "last_pushed": "2026-06-23T17:44:08Z",
+    "summary": "Kintone開発ツール用のJavaScript SDKおよび開発ユーティリティのモノレポジトリ。REST APIクライアント、プラグイン開発ツール、アップローダー、バリデータなどを提供します。",
     "categories": [
       "business-app"
     ],
@@ -87,14 +87,12 @@
       "csv",
       "kintone"
     ],
-    "last_pushed": "2026-06-22T18:32:26Z",
-    "summary": "Kintoneのレコードをインポート/エクスポートするためのCLIツール。",
+    "last_pushed": "2026-06-23T17:45:52Z",
+    "summary": "Kintoneとのレコードのインポート/エクスポートを行うCLIツール。",
     "categories": [
       "business-app"
     ],
-    "attributes": [
-      "cloud"
-    ],
+    "attributes": [],
     "dropped_tags": []
   }
 ]
