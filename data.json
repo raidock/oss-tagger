@@ -11,8 +11,8 @@
       "stripe",
       "stripe-sdk"
     ],
-    "last_pushed": "2026-06-23T18:58:36Z",
-    "summary": "Stripe APIにNode.jsから簡単にアクセスできるライブラリ。支払い処理や顧客管理などの機能を提供します。",
+    "last_pushed": "2026-06-24T21:35:39Z",
+    "summary": "Stripe APIへのNode.js サーバーサイドアクセスを提供するライブラリ。顧客および支払い情報の管理・処理が可能。",
     "categories": [
       "payment"
     ],
@@ -28,8 +28,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "github_topics": [],
-    "last_pushed": "2026-06-23T18:10:44Z",
-    "summary": "Stripe.jsをCommonJSモジュールまたはESモジュールとしてインポートできるラッパーパッケージ。Stripe決済APIのクライアント側実装を簡易化します。",
+    "last_pushed": "2026-06-23T23:15:11Z",
+    "summary": "Stripe.jsをCommonJSモジュールまたはESモジュールとしてインポートできるパッケージ。Stripe決済APIのJavaScriptラッパー。",
     "categories": [
       "payment"
     ],
@@ -45,8 +45,8 @@
     "language": "HTML",
     "license": "MIT",
     "github_topics": [],
-    "last_pushed": "2026-06-23T07:21:39Z",
-    "summary": "freee APIのスキーマファイル集。API定義と仕様を管理するためのOSS。",
+    "last_pushed": "2026-06-24T07:33:08Z",
+    "summary": "freeeが提供するAPIのスキーマファイル集",
     "categories": [
       "accounting"
     ],
@@ -87,8 +87,8 @@
       "csv",
       "kintone"
     ],
-    "last_pushed": "2026-06-23T17:45:52Z",
-    "summary": "Kintoneとのレコードのインポート/エクスポートを行うCLIツール。",
+    "last_pushed": "2026-06-24T04:48:47Z",
+    "summary": "Kintoneのレコードをインポート/エクスポートするためのCLIツール。",
     "categories": [
       "business-app"
     ],
