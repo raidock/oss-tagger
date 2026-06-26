@@ -3,7 +3,7 @@
     "full_name": "stripe/stripe-node",
     "description": "Node.js library for the Stripe API.    ",
     "url": "https://github.com/stripe/stripe-node",
-    "stars": 4451,
+    "stars": 4452,
     "forks": 912,
     "language": "TypeScript",
     "license": "MIT",
@@ -11,8 +11,8 @@
       "stripe",
       "stripe-sdk"
     ],
-    "last_pushed": "2026-06-25T02:35:38Z",
-    "summary": "Stripe APIにNode.jsから便利にアクセスするためのライブラリ。支払い処理やカスタマー管理などの機能を提供します。",
+    "last_pushed": "2026-06-26T16:14:29Z",
+    "summary": "Stripe APIにNode.js から便利にアクセスできるライブラリ。支払い処理やカスタマー管理などの決済機能を提供します。",
     "categories": [
       "payment"
     ],
@@ -24,12 +24,12 @@
     "description": "Loading wrapper for Stripe.js",
     "url": "https://github.com/stripe/stripe-js",
     "stars": 746,
-    "forks": 213,
+    "forks": 214,
     "language": "TypeScript",
     "license": "MIT",
     "github_topics": [],
-    "last_pushed": "2026-06-23T23:15:11Z",
-    "summary": "Stripe.jsをCommonJSモジュールまたはESモジュールとしてインポートできるパッケージ。Stripe決済APIのJavaScriptラッパー。",
+    "last_pushed": "2026-06-25T23:10:50Z",
+    "summary": "Stripe.jsをCommonJSモジュールまたはESモジュールとしてインポートできるパッケージ",
     "categories": [
       "payment"
     ],
@@ -45,8 +45,8 @@
     "language": "HTML",
     "license": "MIT",
     "github_topics": [],
-    "last_pushed": "2026-06-25T05:42:17Z",
-    "summary": "freeeのAPI仕様を定義するスキーマファイル集です。",
+    "last_pushed": "2026-06-26T08:43:17Z",
+    "summary": "freee APIのスキーマファイル。freeeの各種APIの仕様定義を提供するリソース",
     "categories": [
       "accounting"
     ],
@@ -87,8 +87,8 @@
       "csv",
       "kintone"
     ],
-    "last_pushed": "2026-06-25T18:10:23Z",
-    "summary": "Kintoneのレコードをインポート/エクスポートするためのCLIツール",
+    "last_pushed": "2026-06-26T21:23:59Z",
+    "summary": "Kintoneへのレコードのインポート/エクスポートを行うCLIツール",
     "categories": [
       "business-app"
     ],
