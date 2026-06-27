@@ -65,8 +65,8 @@
       "kintone",
       "sdk"
     ],
-    "last_pushed": "2026-06-25T21:40:41Z",
-    "summary": "Kintone開発ツールのMonorepo。REST APIクライアント、プラグインパッカー、アップローダーなど複数の開発支援ツールを提供する。",
+    "last_pushed": "2026-06-27T21:16:22Z",
+    "summary": "Kintone開発のためのJavaScriptツールとライブラリを集めたモノレポ。REST APIクライアント、カスタマイズアップローダー、プラグイン開発ツールなどを提供します。",
     "categories": [
       "business-app"
     ],
