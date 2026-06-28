@@ -65,8 +65,8 @@
       "kintone",
       "sdk"
     ],
-    "last_pushed": "2026-06-27T21:16:22Z",
-    "summary": "Kintone開発のためのJavaScriptツールとライブラリを集めたモノレポ。REST APIクライアント、カスタマイズアップローダー、プラグイン開発ツールなどを提供します。",
+    "last_pushed": "2026-06-28T19:11:13Z",
+    "summary": "Kintone開発ツール群のモノレポで、REST APIクライアント、カスタマイズアップローダー、プラグイン管理ツールなど複数のパッケージを提供するSDK。",
     "categories": [
       "business-app"
     ],
@@ -87,8 +87,8 @@
       "csv",
       "kintone"
     ],
-    "last_pushed": "2026-06-26T21:23:59Z",
-    "summary": "Kintoneへのレコードのインポート/エクスポートを行うCLIツール",
+    "last_pushed": "2026-06-28T20:06:51Z",
+    "summary": "Kintoneのレコードをインポート/エクスポートするためのCLIツール。",
     "categories": [
       "business-app"
     ],
