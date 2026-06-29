@@ -4,15 +4,15 @@
     "description": "Node.js library for the Stripe API.    ",
     "url": "https://github.com/stripe/stripe-node",
     "stars": 4452,
-    "forks": 912,
+    "forks": 914,
     "language": "TypeScript",
     "license": "MIT",
     "github_topics": [
       "stripe",
       "stripe-sdk"
     ],
-    "last_pushed": "2026-06-26T16:14:29Z",
-    "summary": "Stripe APIにNode.js から便利にアクセスできるライブラリ。支払い処理やカスタマー管理などの決済機能を提供します。",
+    "last_pushed": "2026-06-29T18:58:59Z",
+    "summary": "Stripe APIにNode.js環境から便利にアクセスするためのライブラリ。サーバーサイドJavaScriptアプリケーション向けの公式SDK。",
     "categories": [
       "payment"
     ],
@@ -45,8 +45,8 @@
     "language": "HTML",
     "license": "MIT",
     "github_topics": [],
-    "last_pushed": "2026-06-26T08:43:17Z",
-    "summary": "freee APIのスキーマファイル。freeeの各種APIの仕様定義を提供するリソース",
+    "last_pushed": "2026-06-29T08:00:00Z",
+    "summary": "freee APIのスキーマファイル定義プロジェクト",
     "categories": [
       "accounting"
     ],
@@ -65,8 +65,8 @@
       "kintone",
       "sdk"
     ],
-    "last_pushed": "2026-06-28T19:11:13Z",
-    "summary": "Kintone開発ツール群のモノレポで、REST APIクライアント、カスタマイズアップローダー、プラグイン管理ツールなど複数のパッケージを提供するSDK。",
+    "last_pushed": "2026-06-29T20:00:28Z",
+    "summary": "Kintone開発ツール群のモノレポで、REST APIクライアント、カスタマイズアップローダー、プラグイン開発・パッケージング・アップロード用のツール群を提供しています。",
     "categories": [
       "business-app"
     ],
@@ -87,8 +87,8 @@
       "csv",
       "kintone"
     ],
-    "last_pushed": "2026-06-28T20:06:51Z",
-    "summary": "Kintoneのレコードをインポート/エクスポートするためのCLIツール。",
+    "last_pushed": "2026-06-29T21:37:15Z",
+    "summary": "Kintoneとの間でレコードのインポート/エクスポートを行うCLIツール",
     "categories": [
       "business-app"
     ],
