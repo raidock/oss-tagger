@@ -3,16 +3,16 @@
     "full_name": "stripe/stripe-node",
     "description": "Node.js library for the Stripe API.    ",
     "url": "https://github.com/stripe/stripe-node",
-    "stars": 4452,
-    "forks": 914,
+    "stars": 4456,
+    "forks": 915,
     "language": "TypeScript",
     "license": "MIT",
     "github_topics": [
       "stripe",
       "stripe-sdk"
     ],
-    "last_pushed": "2026-06-29T18:58:59Z",
-    "summary": "Stripe APIにNode.js環境から便利にアクセスするためのライブラリ。サーバーサイドJavaScriptアプリケーション向けの公式SDK。",
+    "last_pushed": "2026-06-30T19:30:07Z",
+    "summary": "Stripe APIにNode.jsから便利にアクセスするためのライブラリ。支払い処理やカスタマー管理などの機能を提供します。",
     "categories": [
       "payment"
     ],
@@ -23,13 +23,13 @@
     "full_name": "stripe/stripe-js",
     "description": "Loading wrapper for Stripe.js",
     "url": "https://github.com/stripe/stripe-js",
-    "stars": 746,
-    "forks": 214,
+    "stars": 747,
+    "forks": 215,
     "language": "TypeScript",
     "license": "MIT",
     "github_topics": [],
-    "last_pushed": "2026-06-25T23:10:50Z",
-    "summary": "Stripe.jsをCommonJSモジュールまたはESモジュールとしてインポートできるパッケージ",
+    "last_pushed": "2026-06-30T18:00:04Z",
+    "summary": "Stripe.jsをCommonJSモジュールまたはESモジュールとしてインポートできるラッパーパッケージです。",
     "categories": [
       "payment"
     ],
@@ -65,8 +65,8 @@
       "kintone",
       "sdk"
     ],
-    "last_pushed": "2026-06-29T20:00:28Z",
-    "summary": "Kintone開発ツール群のモノレポで、REST APIクライアント、カスタマイズアップローダー、プラグイン開発・パッケージング・アップロード用のツール群を提供しています。",
+    "last_pushed": "2026-06-30T13:34:04Z",
+    "summary": "Kintoneの開発ツール群を提供するJavaScript SDKのモノレポです。REST APIクライアント、カスタマイズアップローダー、プラグイン開発ツールなど複数のパッケージを含みます。",
     "categories": [
       "business-app"
     ],
@@ -87,8 +87,8 @@
       "csv",
       "kintone"
     ],
-    "last_pushed": "2026-06-29T21:37:15Z",
-    "summary": "Kintoneとの間でレコードのインポート/エクスポートを行うCLIツール",
+    "last_pushed": "2026-06-30T17:35:25Z",
+    "summary": "Kintoneのレコードをインポート/エクスポートするためのCLIツール",
     "categories": [
       "business-app"
     ],
